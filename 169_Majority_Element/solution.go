@@ -1,9 +1,7 @@
 package main
 
-	
 import (
-    "fmt"
-    "slices"
+	"slices"
 )
 
 /*
@@ -24,5 +22,5 @@ func majorityElement(nums []int) int {
 func majorityElement(nums []int) int {
 	n := len(nums)
 	slices.Sort(nums)
-	return nums[n/2];
+	return nums[n/2]
 }
