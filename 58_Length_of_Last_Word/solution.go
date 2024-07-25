@@ -19,15 +19,12 @@ func lengthOfLastWord(s string) int {
 }
 */
 
-func lengthOfLastWord(s string) int {
-	var result = 0
-	var n = len(s)
-	for i := n - 1; i >= 0; i-- {
+func lengthOfLastWord(s string) (result int) {
+	for i := len(s) - 1; i >= 0 && (s[i] != ' ' || result == 0); i-- {
 		if s[i] != ' ' {
-			result += 1
-		} else if result > 0 {
-			break
+			result++
 		}
 	}
-	return result
+
+	return
 }
