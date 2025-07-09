@@ -1,5 +1,7 @@
 package main
 
+//https://leetcode.com/problems/reverse-vowels-of-a-string/description/
+
 func isVowel(c rune) bool {
 	return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' || c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'
 }
