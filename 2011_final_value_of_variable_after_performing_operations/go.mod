@@ -1,0 +1,3 @@
+module 2011_final_value_of_variable_after_performing_operations
+
+go 1.25.0
