@@ -1,0 +1,3 @@
+module 1437_check_if_all_1_s_are_at_least_length_k_places_away
+
+go 1.25.3

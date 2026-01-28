@@ -1,0 +1,3 @@
+module 3217_delete_nodes_from_linked_list_present_in_array
+
+go 1.25.3
