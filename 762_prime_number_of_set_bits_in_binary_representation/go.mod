@@ -1,0 +1,3 @@
+module 762_prime_number_of_set_bits_in_binary_representation
+
+go 1.25.6
